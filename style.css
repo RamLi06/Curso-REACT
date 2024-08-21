@@ -1,9 +1,22 @@
 body{
-    background-color: gray;
+    background-color: rgb(224, 224, 224);
     
 }
 
 #title{
     text-align: center;
-    color: blueviolet;
+    color: rgb(201, 0, 0);
+}
+
+.img{
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+    align-items: center;
+    width: 25%;
+}
+.boiola {
+    text-align: center;
+    font: bolder;
+    font-size: larger;
 }
