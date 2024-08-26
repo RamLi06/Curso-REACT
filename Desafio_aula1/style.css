@@ -6,6 +6,7 @@ body{
 #title{
     text-align: center;
     color: rgb(201, 0, 0);
+    font-family: minecraft;
 }
 
 .img{
@@ -16,10 +17,9 @@ body{
     align-items: center;
     width: 25%;
 }
-.boiola {
+.Nome {
     text-align: center;
-    font: bolder;
-    font-size: larger;
+    font-family: Minecraft;
 }
 
 .Gosc{
