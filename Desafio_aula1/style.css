@@ -11,7 +11,8 @@ body{
 .img{
     display: flex;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 10%;
+    border: 5px solid  rgb(62, 62, 62);
     align-items: center;
     width: 25%;
 }
@@ -23,4 +24,8 @@ body{
 
 .Gosc{
     color: #ff0000;
+}
+
+.instagram{
+    position: 30;
 }
