@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(88, 88, 148);
+    margin: 190px;
+}
+
+.cadastro{
+    
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+}
+
+.input{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scale: 140%;
+    justify-content: space-around;
+    
+}
+.vain{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    font-family: MINECRAFT;
+    background-color: white;
+    padding: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.butaodojao{
+    font-family: minecraft;
+    border: solid #393875;
+    border-radius: 0px;
+}
+
+.nome{
+    font-family: minecraft;
+    border: solid #393875;
+    border-radius: 5px;
+}
+
+.email{
+    font-family: minecraft;
+    border: solid #393875;
+    border-radius: 5px;
+}
+
+.idade{
+    font-family: minecraft;
+    border: solid #393875;
+    border-radius: 5px;
+}
+
+.go{
+    font-family: minecraft;
+    border: solid #393875;
+    
+    
+}

@@ -1,31 +1,61 @@
-body{
-    background-color: rgb(224, 224, 224);
-    
+body {
+    background-color: rgb(105, 102, 117);
+
 }
 
-#title{
+#title {
     text-align: center;
-    color: rgb(201, 0, 0);
+    color: rgb(53, 30, 30);
     font-family: minecraft;
 }
 
-.img{
+.img {
     display: flex;
     margin: auto;
     border-radius: 10%;
-    border: 5px solid  rgb(62, 62, 62);
+    border: 5px solid rgb(62, 62, 62);
     align-items: center;
     width: 25%;
 }
+
 .Nome {
     text-align: center;
     font-family: Minecraft;
+    color: azure;
 }
 
-.Gosc{
-    color: #ff0000;
+.Gosc {
+    color: #911212;
 }
 
-.instagram{
+.instagram {
     position: 30;
+}
+
+.vain {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.titulo {
+    font-family: minecraft;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CONTATOS{
+    font-family: minecraft;
+    text-align: center;
+}
+.ling{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: minecraft;
+}
+.div1{
+
+    font-family: minecraft;
 }
