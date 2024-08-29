@@ -29,7 +29,7 @@ body{
 }
 
 .form{
-    font-family: MINECRAFT;
+    
     background-color: white;
     padding: 50px;
     border-radius: 30px;
@@ -40,32 +40,32 @@ body{
 }
 
 .butaodojao{
-    font-family: minecraft;
+    
     border: solid #393875;
     border-radius: 0px;
 }
 
 .nome{
-    font-family: minecraft;
     border: solid #393875;
     border-radius: 5px;
 }
 
 .email{
-    font-family: minecraft;
     border: solid #393875;
     border-radius: 5px;
 }
 
 .idade{
-    font-family: minecraft;
     border: solid #393875;
     border-radius: 5px;
 }
 
 .go{
-    font-family: minecraft;
     border: solid #393875;
+
     
-    
+}
+
+button {
+
 }
