@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body{
+    background-color: rgb(207, 209, 228);
+}
+
+.boneco{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 10px;
+    scale: 40%;
+    justify-content: space-around;
+}
+
+.parte1{
+
+    border: solid rgb(34, 35, 48);
+    background-color: rgb(34, 35, 48);
+    color: white;
+}
+
+.opcoes{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    padding-right: 50px;
+    border: solid rgb(34, 35, 48);
+    background-color: rgb(34, 35, 48);
+    color: aliceblue;
+    
+}
+
+.local{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    border: solid rgb(34, 35, 48);
+    background-color: rgb(34, 35, 48);
+    color: aliceblue;
+}
+
+.barrapesquisa{
+    display: flex;
+    justify-content: center;
+    border: solid rgb(34, 35, 48);
+    background-color: rgb(34, 35, 48);
+    
+}
+
+.dois{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    border:solid white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    scale: 89%;
+}
+
+article{
+    border: 1px solid white;
+    background-color: white;
+    scale: 100%;
+    border-radius: 30px;
+    border-width: 60px;
+}
