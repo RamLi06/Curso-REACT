@@ -1,0 +1,87 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(62, 61, 73);
+
+}
+
+.title1{
+    padding-top: 40px;
+    text-align: center;
+    border: solid rgb(38, 31, 72);
+    background-color: rgb(38, 31, 72);
+    color: azure;
+
+}
+
+.vsf{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 45% ;
+    text-align: start;
+    border: solid rgb(38, 31, 72);
+    width: 150px;
+    
+}
+
+#mapa{
+    display: flex;
+    justify-content: end;
+    border: solid rgb(38, 31, 72);
+    color: white;
+    background-color: rgb(38, 31, 72);
+    padding-bottom: 40px;
+}
+
+.opcoes{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+    border: solid white;
+    background-color: white;
+    border-radius: 40px;
+    scale: 98%;
+}
+
+.vain{
+    display: flex;
+    justify-content: center;
+
+}
+
+.spiderman{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(500px);
+}
+
+.preço{
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+.teste{
+    padding-top: 50px ;
+    border: solid rgb(38, 31, 72);
+    background-color: rgb(38, 31, 72);
+    color: rgb(38, 31, 72);
+}
+
+.aranha2{
+    padding-left: 500px;
+}
+
+.preço2{
+    align-items: center;
+    text-align: center;
+    transform: translate(-30px);
+    color: aliceblue;
+}
