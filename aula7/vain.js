@@ -16,32 +16,35 @@
 
 //for (let i = 5; ; i-1) {
 
-  //  console.log(i);
+//  console.log(i);
 
 //}
 
 //for(let i = 1; i <=100; i++){
-  //  let soma = i
+//  let soma = i
 
-   // console.log(i+soma)
+// console.log(i+soma)
 //}
 
 //for(let i = 0; i <=25; i++){
 
-    //console.log(i+i);
+//console.log(i+i);
 //}
 
-function calculadora(num1, num2, ope){
- 
-    if(ope == ("+")){
-        return num1 + num2
-        
-    }else if(ope=="-"){
-    return num1 - num2
+//function calculadora(num1, num2, ope) {
 
-    }
-    
-}
+// if (ope == ("+")) {
+//  return num1 + num2
 
-console.log(calculadora(7,7,"-"))
+// } else if (ope == "-") {
+//  return num1 - num2
+
+//} else if (ope == "*") {
+//return num1 * num2
+// } else if (ope == "/")
+//   return num1 / num2
+
+
+//}
+//console.log(calculadora(7, 7, "/"))
 
