@@ -39,12 +39,28 @@ for (let i = 0; i < array.length; i++) {
 console.log(h);
 */
 
+/*
+const vain = [2,2,2];
 
-const vain = [45,4,5];
+let mult = 1;
 
-let sum = vain;
+
 
 for(let i = 0; i< vain.length; i++){
-   sum *= vain[i]
+   mult *= vain[i]
+
 }
-console.log(sum);
+console.log(mult);
+
+*/
+
+/*
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let pares = numeros.filter(numero => numero % 2 === 0);
+
+
+
+
+console.log(pares);
+*/
