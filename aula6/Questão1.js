@@ -64,9 +64,9 @@
 
 //*10*\\
 
-var min = 600
+//var min = 600
 
-const hour = Math.floor(min/60)
-const minu = min%60
+//const hour = Math.floor(min/60)
+//const minu = min%60
 
-console.log(hour, "hr",minu,"min");
+//console.log(hour, "hr",minu,"min");
