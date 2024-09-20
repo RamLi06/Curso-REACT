@@ -70,3 +70,24 @@ calcularea(retanguloFoda);
 
 */
 
+function conta_bancaria(titular, saldo) {
+
+    this.titular = titular
+    this.saldo = saldo
+
+};
+
+const conta_nova = new conta_bancaria("joao", `R$ ${500.00}`)
+
+const conta_nova2 = new conta_bancaria('Marcello', `R$ ${15000.00}`)
+
+depositar = function () {
+
+    console.log(conta_nova.saldo + 500)
+};
+
+const deposito =
+
+
+    console.log(conta_nova);
+console.log(conta_nova2);
