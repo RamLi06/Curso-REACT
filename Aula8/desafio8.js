@@ -11,4 +11,4 @@ const notas = [4.5, 6.3, 10, 5];
 
 let media = Cmedia(notas);
 
-console.log("a média de notas é: "+media)
+console.log("a média de notas é: "+media);

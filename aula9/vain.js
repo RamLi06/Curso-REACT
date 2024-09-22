@@ -69,25 +69,50 @@ const retanguloFoda = new retangulo(5, 3);
 calcularea(retanguloFoda);
 
 */
+/*
+class conta_bancaria {
 
-function conta_bancaria(titular, saldo) {
+    constructor(titular, saldo) {
 
     this.titular = titular
     this.saldo = saldo
 
-};
+}
 
-const conta_nova = new conta_bancaria("joao", `R$ ${500.00}`)
+depositar(valor) {
+    if (valor >= 0) {
+        this.saldo += valor;
+        console.log(`Depósito de R$${valor} realizado. Saldo atual: R$${this.saldo}`);
+    }else{
+        console.log("O valor do depósito deve ser positivo.")
+    }
+}
 
-const conta_nova2 = new conta_bancaria('Marcello', `R$ ${15000.00}`)
+sacar(valor) {
+    if (valor > this.saldo) {
+        console.log("Saldo insuficiente para o saque.")
+        
+    }else if(valor >= 0){
+        this.saldo -= valor;
+        console.log(`saque de R$${valor} realizado. Saldo atual: R$${this.saldo}.`);
+    }else{
+        console.log("o valor do saque deve ser positivo.")
+    }
+}
 
-depositar = function () {
-
-    console.log(conta_nova.saldo + 500)
-};
-
-const deposito =
+}   
 
 
-    console.log(conta_nova);
-console.log(conta_nova2);
+
+
+
+
+const conta_nova = new conta_bancaria("joao", 1500);
+
+
+conta_nova.sacar(1400);
+
+
+console.log(conta_nova)
+
+*/
