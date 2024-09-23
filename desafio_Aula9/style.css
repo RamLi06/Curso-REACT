@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.agenda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 500px;   
+    margin-left: 30%;
+    border-radius: 20px;
+    
+
+}
+
+.agenda input{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 15%;
+
+
+}
+
+.agenda input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    border: solid rgb(118, 53, 118);
+
+
+}
+
+#titulo{
+
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+body{
+    background-color: rgb(99, 108, 167);
+}
+
+button{
+
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+.marcar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 800px;   
+    margin-left: 20%;
+    border-radius: 20px;
+    margin-top: 5%;
+}
