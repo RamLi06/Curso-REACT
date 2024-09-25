@@ -8,23 +8,23 @@ class conta_bancaria {
 
     transferencia(valor, contaDestinada) {
 
-        // Verificar se a conta de origem e destino são iguais
+        /* Verificar se a conta de origem e destino são iguais */
 
         if (this === contaDestinada) {
 
             console.log(`Transferência falhou: não é possível transferir para a mesma conta.`);
 
-        } else if (valor <= 0) {
+        } else if (valor <= 0) { /*verificar se o valor de transferência não é negativo nem 0*/
 
             console.log(`Transferência falhou: o valor de transferência deve ser maior que zero.`);
 
-        } else if (this.saldo >= valor) {
+        } else if (this.saldo >= valor) { /*verificar se o saldo é suficiente e realizar a transferência*/
 
             this.saldo -= valor;
             contaDestinada.saldo += valor;
             console.log(`Transferência de R$ ${valor.toFixed(2)} realizada de ${this.titular} para ${contaDestinada.titular}.`);
 
-        } else {
+        } else { /* se voce for falido não consegue fazer a transferência genio 😱 */
 
             console.log(`Transferência falhou: saldo insuficiente na conta de ${this.titular}.`);
         }
