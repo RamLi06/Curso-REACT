@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(91, 126, 91);
+}
+
+.caixa{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+    margin: 25%;
+    background-color: rgb(204, 200, 200);
+    padding: 3%;
+
+    border-radius: 30px;
+    
+
+}
+
+#julgar{
+    background-color: grey;
+    margin: 3%;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+#julgar:active{
+    background-color: rgb(56, 56, 56);
+    margin: 3%;
+    padding: 1%;
+    border-radius: 5px;
+    color: white;
+}
+
+.result{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+    
+}
+
+#aprovado{
+    background-color: rgb(170, 170, 170);
+    padding: 10%;
+    padding-bottom: 100%;
+}
+
+#reprovado{
+    background-color: rgb(170, 170, 170);
+    padding: 10%;
+    padding-bottom: 100%;
+}
+
+#recuperar{
+    background-color: rgb(170, 170, 170);
+    padding: 10%;
+    padding-bottom: 100%;
+    display: flex;
+}
+
+.nome input{
+
+    padding: 2%;
+    
+}
+
+.nota input{
+
+    padding: 2%;
+    
+}

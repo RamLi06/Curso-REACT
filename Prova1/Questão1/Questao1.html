@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Manipulação de Texto e Estilo</title>
+</head>
+<body>
+    <h1>Manipulação de Texto e Estilo</h1>
+   
+    <p id="meuTexto">Texto Original</p>
+   
+    <button onclick="mudarTexto()">Mudar Texto</button>
+    <button onclick="mudarCor()">Mudar Cor</button>
+    <button onclick="limparTexto()">Limpar Texto</button>
+   
+    <script>
+        function mudarCor(){
+
+            document.getElementById("meuTexto").style.color = "red"
+
+        }
+
+        function mudarTexto(){
+
+            document.getElementById("meuTexto").textContent = "Texto novo";
+        }
+
+        function limparTexto(){
+
+            document.getElementById("meuTexto").remove("meuTexto")
+        }
+
+    </script>
+</body>
+</html>

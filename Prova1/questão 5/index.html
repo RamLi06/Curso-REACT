@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="caixa">
+        <h4>insira o nome do aluno:</h4>
+        <div class="nome">
+            <input type="text" placeholder="nome" id="nome">
+        </div>
+        <h4>insira a nota do aluno:</h4>
+        <div class="nota">
+            <input type="number" placeholder="nota" id="nota">
+        </div>
+
+        <button onclick="document.getElementById('julgar')" id="julgar">Julgar</button>
+</div>
+
+        <div class="result">
+
+            <div id="reprovado"><h2>Reprovado</h2> <div id="aluno"></div></div>
+            
+            <div id="recuperar"><h2>Recuperação</h2></div>
+            
+            <div id="aprovado"> <h2>Aprovado</h2></div>
+
+
+        </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
