@@ -8,7 +8,7 @@ class conta_bancaria {
 
     transferencia(valor, contaDestinada) {
 
-        /* Verificar se a conta de origem e destino são iguais */
+        /* Verificar se a conta de origem e destino são iguais daqui em diante é só tratamento de erro*/
 
         if (this === contaDestinada) {
 
@@ -39,7 +39,7 @@ const conta2 = new conta_bancaria('João', 1000.00)
 
 //tranferencia
 
-conta1.transferencia(10, conta2)
+conta2.transferencia(-10, conta2)
 
 console.log(conta1)
 
