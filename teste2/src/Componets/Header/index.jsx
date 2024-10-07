@@ -1,4 +1,7 @@
+import './style.css'
+
 export default function Header(){
+
 
 
     return(
@@ -6,6 +9,7 @@ export default function Header(){
     <>
 
     <header>
+        
     <h1>Logo</h1>
 
     <div id='header.list'>
@@ -16,5 +20,7 @@ export default function Header(){
     </div>
     
     </header>
-    </>)
+    </>
+    
+    )
 }
