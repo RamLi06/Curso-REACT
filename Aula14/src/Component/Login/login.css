@@ -1,0 +1,78 @@
+
+#login {
+    width: 30rem;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+    margin: 10%;
+    margin-left: 35%;
+    border-radius: 33px;
+    border: solid gray;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20%;
+    
+    
+    
+
+}
+
+input{
+
+    padding: 4%;
+    border: solid gray;
+
+    border-radius: 30px;
+
+
+}
+
+button{
+
+    padding: 2%;
+
+    border-radius: 5px;
+    padding: 5%;
+    background-color: rgb(122, 122, 184);
+}
+
+button:active{
+
+    background-color: rgb(73, 73, 109);
+}
+
+#butao{
+
+    background-color: rgb(143, 37, 120);
+    color: white;
+    padding: 3%;
+}
+
+#butao:active{
+
+    background-color: rgb(90, 35, 92);
+}
+
+#cadastro{
+    width: 29rem;
+    height: 40rem;
+    background-color: rgb(226, 226, 226);
+    border-radius: 30px;
+    
+    border: solid gray;
+
+}
+
+#form{
+
+    display: flex;
+    flex-direction: column;
+
+    
+}
